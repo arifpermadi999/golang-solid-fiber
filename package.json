@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "go": "nodemon --watch './**/*.go' --signal SIGTERM --exec 'go' run main.go",
+        "migration": "--exec 'go' run migration.go"
+    }
+}
